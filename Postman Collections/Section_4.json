@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "f4b53d2a-f3be-4f30-ae51-be14a864a929",
+		"name": "Section 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"_postman_id": "ed332af8-d71c-447f-a4a3-8f712e71dcc0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "signup",
+			"_postman_id": "a012b2ad-30dc-4c56-a849-df4ba587a9f9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
