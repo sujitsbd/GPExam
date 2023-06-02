@@ -52,7 +52,7 @@
 						}
 					}
 				},
-				"url": "https://petstore.swagger.io/v2/user/createWithArray"
+				"url": "{{URL}}/createWithArray"
 			},
 			"response": []
 		},
@@ -363,12 +363,12 @@
 	],
 	"variable": [
 		{
-			"id": "288ecf24-fe6f-420a-94ef-f6083b5d328e",
+			"id": "c4414bc4-2a27-4b75-b796-bff584bbbf33",
 			"key": "equipmentId",
 			"value": ""
 		},
 		{
-			"id": "09f29d57-9d8e-41e3-bf4f-be2e26fde473",
+			"id": "1269354a-3eaa-43fd-91ff-f69aa5684f87",
 			"key": "URL",
 			"value": "https://petstore.swagger.io/v2/user"
 		}
