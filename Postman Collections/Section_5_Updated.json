@@ -142,16 +142,11 @@
 					}
 				},
 				"url": {
-					"raw": "https://petstore.swagger.io/v2/user/user1",
-					"protocol": "https",
+					"raw": "{{URL}}/user1",
 					"host": [
-						"petstore",
-						"swagger",
-						"io"
+						"{{URL}}"
 					],
 					"path": [
-						"v2",
-						"user",
 						"user1"
 					],
 					"query": [
@@ -368,12 +363,12 @@
 	],
 	"variable": [
 		{
-			"id": "8811223b-aca3-41b0-a6e2-c1d1f5458cd6",
+			"id": "0f6e7e47-3742-40b2-8fad-898d1ffd4a35",
 			"key": "equipmentId",
 			"value": ""
 		},
 		{
-			"id": "1f64238c-a65c-4418-8f1e-fdabc5f35f12",
+			"id": "bdfee2d9-2fd7-4fae-952e-90ba800f0d5c",
 			"key": "URL",
 			"value": "https://petstore.swagger.io/v2/user"
 		}
