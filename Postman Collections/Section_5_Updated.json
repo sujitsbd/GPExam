@@ -204,7 +204,7 @@
 					"mode": "raw",
 					"raw": "{\n  \"phone\": \"123456789\"\n}"
 				},
-				"url": "https://petstore.swagger.io/v2/user/user1"
+				"url": "{{URL}}/user1"
 			},
 			"response": []
 		},
@@ -368,12 +368,12 @@
 	],
 	"variable": [
 		{
-			"id": "0da1077e-a746-4574-8980-f4c6994ee357",
+			"id": "8811223b-aca3-41b0-a6e2-c1d1f5458cd6",
 			"key": "equipmentId",
 			"value": ""
 		},
 		{
-			"id": "5a9f0b9b-241a-4ed7-8ba5-702ff298656f",
+			"id": "1f64238c-a65c-4418-8f1e-fdabc5f35f12",
 			"key": "URL",
 			"value": "https://petstore.swagger.io/v2/user"
 		}
