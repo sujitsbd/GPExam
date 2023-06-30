@@ -25,7 +25,7 @@
 					}
 				}
 			],
-			"_postman_id": "dc441afa-5cfb-4009-a9ec-b4779e2753d3",
+			"id": "dc441afa-5cfb-4009-a9ec-b4779e2753d3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -77,7 +77,7 @@
 					}
 				}
 			],
-			"_postman_id": "206f30be-077d-4d62-9693-fa7d1e38b4fa",
+			"id": "206f30be-077d-4d62-9693-fa7d1e38b4fa",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -97,10 +97,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "[\n  {\n    \"id\": 0,\n    \"username\": \"user2\",\n    \"firstName\": \"user\",\n    \"lastName\": \"2\",\n    \"email\": \"sujit.sqae@gmail.com\",\n    \"password\": \"123456\",\n    \"phone\": \"01672744455\",\n    \"userStatus\": 0\n  }\n]\n\n",
-					"options": {
-						"raw": {}
-					}
+					"raw": "[\n  {\n    \"username\": \"user2\",\n    \"firstName\": \"user\",\n    \"lastName\": \"2\",\n    \"email\": \"sujit.sqae@gmail.com\",\n    \"password\": \"123456\",\n    \"phone\": \"01672744455\",\n    \"userStatus\": 0\n  }\n]\n\n"
 				},
 				"url": "{{URL}}/createWithList"
 			},
@@ -122,7 +119,7 @@
 					}
 				}
 			],
-			"_postman_id": "7ce427fe-16f9-475e-882b-94eeeff9bfe8",
+			"id": "7ce427fe-16f9-475e-882b-94eeeff9bfe8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -180,7 +177,7 @@
 					}
 				}
 			],
-			"_postman_id": "a5872ce2-d162-418d-9a40-3560c2e8ef69",
+			"id": "a5872ce2-d162-418d-9a40-3560c2e8ef69",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -200,10 +197,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"phone\": \"123456789\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n  \"phone\": \"123456789\"\n}"
 				},
 				"url": "{{URL}}/user1"
 			},
@@ -225,7 +219,7 @@
 					}
 				}
 			],
-			"_postman_id": "fda205b7-a791-495a-8bd2-7f5e5d74138d",
+			"id": "fda205b7-a791-495a-8bd2-7f5e5d74138d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -262,7 +256,7 @@
 					}
 				}
 			],
-			"_postman_id": "294e0223-172f-4c6a-a747-20b637a60307",
+			"id": "294e0223-172f-4c6a-a747-20b637a60307",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -313,7 +307,7 @@
 					}
 				}
 			],
-			"_postman_id": "5761608e-e492-4bb0-8181-2254e705746f",
+			"id": "5761608e-e492-4bb0-8181-2254e705746f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -340,7 +334,7 @@
 					}
 				}
 			],
-			"_postman_id": "c76316de-b99a-4006-a40d-6443a8b87f2f",
+			"id": "c76316de-b99a-4006-a40d-6443a8b87f2f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -360,10 +354,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"id\": 0,\n  \"username\": \"Sujits\",\n  \"firstName\": \"Sujit\",\n  \"lastName\": \"sarker\",\n  \"email\": \"ss@gmail.com\",\n  \"password\": \"123456\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n  \"id\": 0,\n  \"username\": \"Sujits\",\n  \"firstName\": \"Sujit\",\n  \"lastName\": \"sarker\",\n  \"email\": \"ss@gmail.com\",\n  \"password\": \"123456\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}"
 				},
 				"url": "{{URL}}"
 			},
@@ -372,16 +363,14 @@
 	],
 	"variable": [
 		{
-			"id": "32288785-d80c-4139-8279-6c85b54b33e0",
+			"id": "dc24bc9f-e64c-4795-8c01-9d0c151c416b",
 			"key": "equipmentId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "8005bb9a-450e-4008-8681-128dc06cd1e2",
+			"id": "f7e623ac-6e9c-4532-a064-a6a4fec4fb26",
 			"key": "URL",
-			"value": "https://petstore.swagger.io/v2/user",
-			"type": "string"
+			"value": "https://petstore.swagger.io/v2/user"
 		}
 	]
 }
